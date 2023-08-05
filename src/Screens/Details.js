@@ -18,7 +18,7 @@ const ImageDetailScreen = () => {
     <View style={styles.container}>
       <Text style={styles.labelText}>Cat Details</Text>
       <Image style={styles.image} source={{uri: image.url}} />
-      <Text style={styles.text}>ID: {image.d}</Text>
+      <Text style={styles.text}>ID: {image.id}</Text>
       <Text style={styles.text}>
         Size: {image.width}x{image.height}
       </Text>
